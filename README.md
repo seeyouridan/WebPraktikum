@@ -1,2 +1,0 @@
-# WebPraktikum
-Tugas project
