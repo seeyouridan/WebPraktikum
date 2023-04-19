@@ -1,6 +1,5 @@
 body {
-    background-color: #f0f0f0;
-    margin: 0px;
+    margin: 0;
     font-family: arial;
 }
 
@@ -10,7 +9,6 @@ header {
     color: white;
     padding: 0px 20px;
     justify-content: space-between;
-    display: flex;
     flex-wrap: wrap;
 }
 
@@ -24,7 +22,6 @@ ul li {
     padding: 0px 20px 0px 20px;
     height: 20px;
 }
-
 
 ul li:nth-child(3) a {
     background-color: #2e2e2e;
@@ -87,69 +84,21 @@ a.dropbtn {
     margin-top: 25px;
 }
 
-section h4 {
-    display: block;
-    flex-wrap: wrap;
-    text-align: left;
-    padding-left: 50px;
-}
-
-.page1, .page2 {
-    margin-bottom: 40px;
-    padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    position: relative;
-    justify-content: center;
-}
-
-.card h3 {
-    padding: 10px;
-    margin: 0;
-}
-
-.card {
-    background: #e0e0e0;
-    box-shadow: 10px 10px 15px #bebebe;
-    width: 300px;
-    border-radius: 30px;
-    padding: 10px;
-    text-align: center;
-}
-
-.desc img {
-    width: 70px;
-    border-width: 150px;
-    padding-left: 20px;
-    padding-right: 20px;
-    transition: 0.25s;
-}
-
-.desc:hover img {
-    transform: scale(1.25);
-}
-
-.card .desc {
-    display: flex;
-    align-items: center;
-    margin-right: 20px;
-    height: 150px;
-    transition: 0.25s;
-}
-
-.desc p {
-    transition: 0.25s;
-}
-
-.desc:hover p {
-    margin-left: 20px;
+section {
+    max-width: 90%;
+    background-color: white;
+    margin: auto;
+    text-align: justify;
+    padding: 20px;
 }
 
 footer {
     background-color: #4a4a4a;
     height: 10pc;
     padding-top: 20px;
+    bottom: 0px;
+    width: 100%;
+    position: absolute;
 }
 
 .teks p {
@@ -159,8 +108,8 @@ footer {
 }
 
 .icon img {
-    height: 40px;
-    padding: 0px 5px 10px 5px;
+    height: 30px;
+    padding: 10px 5px 20px 5px;
     display: inline-block;
     opacity: 25%;
     transition: 0.25s;

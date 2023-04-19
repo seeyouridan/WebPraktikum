@@ -4,8 +4,27 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Samsung | List</title>
+
+	<link rel="stylesheet" type="text/css" href="../css/samsung.css">
+	<script src="../js/samsung.js"></script>
 </head>
-<body>
-	<a href="../index.html">Kmebali</a>
+<body onload="myLoad()">
+	<header>
+		<nav>
+			<a href="../index.html">Kembali</a>
+		</nav>
+	</header>
+
+	<section>
+        <div id="loader" class="loader"></div>
+
+		<div id="product" class="container"></div>
+
+        <div class="btn-group">
+        	<button class="btn-show-more" onclick="add()" id="show-more">
+        		SHOW MORE
+        	</button>
+        </div>
+	</section>
 </body>
 </html>
